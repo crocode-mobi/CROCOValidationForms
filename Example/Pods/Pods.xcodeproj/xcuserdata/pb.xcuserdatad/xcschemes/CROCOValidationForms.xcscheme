@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "171881BA2BF39735F6849703"
+               BlueprintIdentifier = "CDF80D0088AB88D4B4C5C422"
                BuildableName = "CROCOValidationForms.bundle"
                BlueprintName = "CROCOValidationForms"
                ReferencedContainer = "container:Pods.xcodeproj">

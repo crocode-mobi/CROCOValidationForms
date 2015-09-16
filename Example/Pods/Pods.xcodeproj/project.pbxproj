@@ -10,84 +10,34 @@
 	<string>46</string>
 	<key>objects</key>
 	<dict>
-		<key>034E57BE589DC001A07EC51C</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>XCTest.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/XCTest.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>0627A53CD9541A465C4F0893</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>46A035160ECD60EC62E2A51E</string>
-			<key>buildPhases</key>
-			<array>
-				<string>6E08B10BD1EDBDA397CFBD64</string>
-				<string>663E069ED0F523C66A191D1F</string>
-				<string>523281451D084DA9B51E2026</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>2CFD9EDA7CC1CC4C58689294</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-CROCOValidationForms_Tests-CROCOValidationForms</string>
-			<key>productName</key>
-			<string>Pods-CROCOValidationForms_Tests-CROCOValidationForms</string>
-			<key>productReference</key>
-			<string>BD6B8777E44154CFA1242BC9</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>08727683F46BFEE8A9129E99</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B06B1B3DD6DD95A5F9D17400</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>092FB67E6CCAA20F514614C0</key>
+		<key>01AB3D952A11FCEE021CBC9D</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>463ACC44DA04E6FD770978A7</string>
+			<string>91FCEFB6DC85971572F38380</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>ALWAYS_SEARCH_USER_PATHS</key>
 				<string>NO</string>
 				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
+				<string>YES</string>
 				<key>DSTROOT</key>
 				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
 				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
 				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-CROCOValidationForms_Tests-CROCOValidationForms/Pods-CROCOValidationForms_Tests-CROCOValidationForms-prefix.pch</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
 				<key>INSTALL_PATH</key>
 				<string>$(BUILT_PRODUCTS_DIR)</string>
 				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
 				<string>7.1</string>
+				<key>OTHER_CFLAGS</key>
+				<array>
+					<string>-DNS_BLOCK_ASSERTIONS=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>OTHER_CPLUSPLUSFLAGS</key>
+				<array>
+					<string>-DNS_BLOCK_ASSERTIONS=1</string>
+					<string>$(inherited)</string>
+				</array>
 				<key>OTHER_LDFLAGS</key>
 				<string></string>
 				<key>OTHER_LIBTOOLFLAGS</key>
@@ -100,116 +50,62 @@
 				<string>iphoneos</string>
 				<key>SKIP_INSTALL</key>
 				<string>YES</string>
+				<key>VALIDATE_PRODUCT</key>
+				<string>YES</string>
 			</dict>
 			<key>isa</key>
 			<string>XCBuildConfiguration</string>
 			<key>name</key>
-			<string>Debug</string>
+			<string>Release</string>
 		</dict>
-		<key>09EB9F22BA2307F553CCB213</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>0B399B60F7B0447D0FFB701F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-CROCOValidationForms_Tests-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0CE4D851F1504D1C8B5AD102</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>FBSnapshotTestController.m</string>
-			<key>path</key>
-			<string>FBSnapshotTestCase/FBSnapshotTestController.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>109886F31915B0D8DCBAC239</key>
+		<key>02581AB85843AB22E45D490F</key>
 		<dict>
 			<key>fileRef</key>
-			<string>76954BEF35DBD18AEEF699C7</string>
+			<string>30ADE9C5A7408FD67782D639</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>10D3E4462D99CDEAA26D2CAC</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>UIImage+Diff.m</string>
-			<key>path</key>
-			<string>FBSnapshotTestCase/Categories/UIImage+Diff.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>12532C2E1B544C3517E496B3</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>9F1B05406E2A80A1E1FE82EF</string>
-				<string>59F4E9D7B298A21DC6265E20</string>
-				<string>A2DECC5AF727B84BF3A80806</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>CROCOValidationForms</string>
-			<key>path</key>
-			<string>../..</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>171881BA2BF39735F6849703</key>
+		<key>04975E6B5BB1562A5B015198</key>
 		<dict>
 			<key>buildConfigurationList</key>
-			<string>D7E93B20C28FC5A8AA0DB44D</string>
+			<string>D747C3DB43966B639F5DC79C</string>
 			<key>buildPhases</key>
 			<array>
-				<string>57891FD6B163EEEF8B75F28B</string>
-				<string>09EB9F22BA2307F553CCB213</string>
-				<string>EB06C8EB76344CE726294DE0</string>
+				<string>1DB2EBD98F4531BA19F69982</string>
+				<string>550DAECB432EBBDF1C689A0D</string>
 			</array>
 			<key>buildRules</key>
 			<array/>
 			<key>dependencies</key>
-			<array/>
+			<array>
+				<string>2D1DDBB81C80C72B1BA386B0</string>
+				<string>5A4965BF55C504FE82DAFBA4</string>
+			</array>
 			<key>isa</key>
 			<string>PBXNativeTarget</string>
 			<key>name</key>
-			<string>CROCOValidationForms</string>
+			<string>Pods-CROCOValidationForms_Tests</string>
 			<key>productName</key>
-			<string>CROCOValidationForms</string>
+			<string>Pods-CROCOValidationForms_Tests</string>
 			<key>productReference</key>
-			<string>88C8F574AD6B7E168F38E794</string>
+			<string>85B4CBB80BAB822A434FBB20</string>
 			<key>productType</key>
-			<string>com.apple.product-type.bundle</string>
+			<string>com.apple.product-type.library.static</string>
 		</dict>
-		<key>19039C7ECDBA8FFB78562108</key>
+		<key>05D589B939ABA8200D114F2F</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>Foundation.framework</string>
+			<key>path</key>
+			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework</string>
+			<key>sourceTree</key>
+			<string>DEVELOPER_DIR</string>
+		</dict>
+		<key>066A705CA1BA9C78050FE52C</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -222,157 +118,68 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>197926E3AD8A788A1BEC93DC</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>9D4B82B8069203E7885C9C0E</string>
-			<key>buildPhases</key>
-			<array>
-				<string>444270C6EBD55F8C73D8FC4C</string>
-				<string>FB81B3D05525BE3020665A36</string>
-				<string>67CF41C28AA04A857CF55927</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>2617005522094A4EA7006352</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-CROCOValidationForms_Example-CROCOValidationForms</string>
-			<key>productName</key>
-			<string>Pods-CROCOValidationForms_Example-CROCOValidationForms</string>
-			<key>productReference</key>
-			<string>B054D9095DD579194131E31D</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>1C859AB29E9C626E7C3EDCF9</key>
+		<key>08796ECBB01C9999B772743E</key>
 		<dict>
 			<key>buildActionMask</key>
 			<string>2147483647</string>
 			<key>files</key>
 			<array>
-				<string>28D6DBA1E97D8657BEE3CED4</string>
+				<string>2288F9CA7A9F3B7D86B982C8</string>
+				<string>0BCAFA4F1AF4A15D144159CE</string>
 			</array>
 			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
+			<string>PBXFrameworksBuildPhase</string>
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>1D749246ED34868B1EB180F7</key>
+		<key>0B8F8C720EDEA101F960387A</key>
 		<dict>
 			<key>buildActionMask</key>
 			<string>2147483647</string>
 			<key>files</key>
 			<array>
-				<string>F8A884CD6F4387FDA443672F</string>
-				<string>3B5F34A89335AD455DAB39F5</string>
-				<string>C85DD6D3F0048D993AE284A4</string>
-				<string>8F17E72C809686B5387B6E02</string>
-				<string>50081772470BB00FE20524A1</string>
-				<string>CA2753ED567CD58AB9BC94CA</string>
-				<string>B0923F1D6CE9A446B247A815</string>
-				<string>66EBBE32214120469AB9E40A</string>
+				<string>14F53C7A0448F08AB09721A3</string>
 			</array>
 			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
+			<string>PBXFrameworksBuildPhase</string>
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>1DB104A579E54BF7C509E722</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>UIImage+Compare.h</string>
-			<key>path</key>
-			<string>FBSnapshotTestCase/Categories/UIImage+Compare.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1E376AA368B25A317A8C51EB</key>
+		<key>0BCAFA4F1AF4A15D144159CE</key>
 		<dict>
 			<key>fileRef</key>
-			<string>39CD5044CCF5C9439F5CD92C</string>
+			<string>3563B923DB12459015A30A3B</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>1EEC90B003BEFEE00C95C89F</key>
+		<key>0C11C6918D4EA35915EA81DF</key>
 		<dict>
 			<key>buildConfigurationList</key>
-			<string>DC4D3C5DDB2649E07B638FD9</string>
+			<string>FF9E49FF540BB2B69489FD83</string>
 			<key>buildPhases</key>
 			<array>
-				<string>1D749246ED34868B1EB180F7</string>
-				<string>B985369ACBDEFA3F9632F409</string>
-				<string>FF2DE9BE82FAE78BCD9D873E</string>
+				<string>86FE59A36C1B1800C243A914</string>
+				<string>4D182CF15F7D6268D3D3BE72</string>
+				<string>9ADFF18B32BAABAF831BF301</string>
 			</array>
 			<key>buildRules</key>
 			<array/>
 			<key>dependencies</key>
-			<array/>
+			<array>
+				<string>B5CD309A0096158AD33F821A</string>
+			</array>
 			<key>isa</key>
 			<string>PBXNativeTarget</string>
 			<key>name</key>
-			<string>Pods-CROCOValidationForms_Tests-FBSnapshotTestCase</string>
+			<string>Pods-CROCOValidationForms_Tests-CROCOValidationForms</string>
 			<key>productName</key>
-			<string>Pods-CROCOValidationForms_Tests-FBSnapshotTestCase</string>
+			<string>Pods-CROCOValidationForms_Tests-CROCOValidationForms</string>
 			<key>productReference</key>
-			<string>E8CB1E62649E84C60D37A78E</string>
+			<string>34F7A34CD2ECDDBAE9DAE2FB</string>
 			<key>productType</key>
 			<string>com.apple.product-type.library.static</string>
 		</dict>
-		<key>1F4823FA1EC23EB989F6A7C0</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-CROCOValidationForms_Example-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>20E8D6FF7F91C748759F157D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>SwiftSupport.swift</string>
-			<key>path</key>
-			<string>FBSnapshotTestCase/SwiftSupport.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>24F26DBFC0A4424549881B84</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>Pods-CROCOValidationForms_Tests-CROCOValidationForms-prefix.pch</string>
-			<key>path</key>
-			<string>../Pods-CROCOValidationForms_Tests-CROCOValidationForms/Pods-CROCOValidationForms_Tests-CROCOValidationForms-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>250CF02995B18452AAC8BAD6</key>
+		<key>0CAA8F4874744720C116E167</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -381,52 +188,197 @@
 			<key>lastKnownFileType</key>
 			<string>text.xcconfig</string>
 			<key>path</key>
-			<string>Pods-CROCOValidationForms_Tests.debug.xcconfig</string>
+			<string>Pods-CROCOValidationForms_Tests-FBSnapshotTestCase-Private.xcconfig</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>2617005522094A4EA7006352</key>
+		<key>0CB2EA7E41B954548529D3FD</key>
 		<dict>
+			<key>containerPortal</key>
+			<string>2BD34B5761479DF8EA4462A1</string>
 			<key>isa</key>
-			<string>PBXTargetDependency</string>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>0C11C6918D4EA35915EA81DF</string>
+			<key>remoteInfo</key>
+			<string>Pods-CROCOValidationForms_Tests-CROCOValidationForms</string>
+		</dict>
+		<key>0D6A3FCBA0C0521C46F1E14D</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>0FBBA8FAA6BF437530B6455F</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>D84B5A4A197767FC6D0B99F3</string>
+				<string>1C1100A637B37C3C2C37A62A</string>
+				<string>9BD94FA17AA4AA04E8370C39</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
 			<key>name</key>
 			<string>CROCOValidationForms</string>
-			<key>target</key>
-			<string>171881BA2BF39735F6849703</string>
-			<key>targetProxy</key>
-			<string>2ED49FA09A0BF7E4116DA267</string>
+			<key>path</key>
+			<string>../..</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
-		<key>27B99790E9D4430C6F0E5891</key>
+		<key>104094F362A3F59FA65B1E7F</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>Pods-CROCOValidationForms_Tests-FBSnapshotTestCase-prefix.pch</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>122601BA73EF75D6F44DB2E5</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text</string>
+			<key>name</key>
+			<string>Podfile</string>
+			<key>path</key>
+			<string>../Podfile</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+			<key>xcLanguageSpecificationIdentifier</key>
+			<string>xcode.lang.ruby</string>
+		</dict>
+		<key>142549E6DEBC6CFAECF3ED46</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>73257FFF23DF81FD3530E300</string>
+				<string>BD192B13A3B5913CC7D9DA02</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>14F53C7A0448F08AB09721A3</key>
 		<dict>
 			<key>fileRef</key>
-			<string>9F1B05406E2A80A1E1FE82EF</string>
+			<string>05D589B939ABA8200D114F2F</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>28D6DBA1E97D8657BEE3CED4</key>
+		<key>166182B6A3F04B5CC3521AB0</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>Pods-CROCOValidationForms_Tests-CROCOValidationForms-dummy.m</string>
+			<key>path</key>
+			<string>../Pods-CROCOValidationForms_Tests-CROCOValidationForms/Pods-CROCOValidationForms_Tests-CROCOValidationForms-dummy.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>1840DDCF100F43D45967C190</key>
 		<dict>
 			<key>fileRef</key>
-			<string>0B399B60F7B0447D0FFB701F</string>
+			<string>C384366471142A02531DD308</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>2BDD7DF79F8628634039ECEC</key>
+		<key>19DD935106B0D90131A05617</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Pods-CROCOValidationForms_Example-acknowledgements.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>1BA41BEA3DD98F13C81BC446</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>066A705CA1BA9C78050FE52C</string>
+				<string>19DD935106B0D90131A05617</string>
+				<string>3AFDC554AB6BE224B068F60C</string>
+				<string>76215BC6E06F19EB48FCE802</string>
+				<string>E4E15F58E8434F829D8A00E0</string>
+				<string>9E74E33B41B83B763A041FC6</string>
+				<string>91FCEFB6DC85971572F38380</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Pods-CROCOValidationForms_Example</string>
+			<key>path</key>
+			<string>Target Support Files/Pods-CROCOValidationForms_Example</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>1C1100A637B37C3C2C37A62A</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>CROCOValidationForms.m</string>
+			<key>path</key>
+			<string>Pod/Classes/CROCOValidationForms.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>1DB2EBD98F4531BA19F69982</key>
 		<dict>
 			<key>buildActionMask</key>
 			<string>2147483647</string>
 			<key>files</key>
 			<array>
-				<string>B9A1C364AF855640C1E9EA42</string>
+				<string>2EB344226693E11B6E1A271F</string>
 			</array>
 			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
+			<string>PBXSourcesBuildPhase</string>
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>2C8A292031E4A9C0F926EB17</key>
+		<key>1EB902E17538B97A292B4B95</key>
+		<dict>
+			<key>fileRef</key>
+			<string>4CD9F726715CE29D644028BE</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>213AFDF29296498D6254DB3C</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>8CEF62ECEEF47BA560E98A1D</string>
+			<string>51DF4A8DEBFB1163432772AD</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>ALWAYS_SEARCH_USER_PATHS</key>
@@ -473,18 +425,729 @@
 			<key>name</key>
 			<string>Release</string>
 		</dict>
-		<key>2CFD9EDA7CC1CC4C58689294</key>
+		<key>2288F9CA7A9F3B7D86B982C8</key>
+		<dict>
+			<key>fileRef</key>
+			<string>05D589B939ABA8200D114F2F</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>290FBABCCC4B7EA9A5E6FD3E</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>E3648AC1ECC79C4DD65F2BE8</string>
+			<key>buildPhases</key>
+			<array>
+				<string>39DC75BF168526B3DAD91609</string>
+				<string>BC4950878D12B77A4288EE5C</string>
+				<string>668D423855C0FCCB47EBF757</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array>
+				<string>8AF5BF6DE37EE4E7488C0157</string>
+			</array>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>Pods-CROCOValidationForms_Example-CROCOValidationForms</string>
+			<key>productName</key>
+			<string>Pods-CROCOValidationForms_Example-CROCOValidationForms</string>
+			<key>productReference</key>
+			<string>4B4C19A0A69DFF3A6D6B3FAE</string>
+			<key>productType</key>
+			<string>com.apple.product-type.library.static</string>
+		</dict>
+		<key>2BD34B5761479DF8EA4462A1</key>
+		<dict>
+			<key>attributes</key>
+			<dict>
+				<key>LastUpgradeCheck</key>
+				<string>0510</string>
+			</dict>
+			<key>buildConfigurationList</key>
+			<string>142549E6DEBC6CFAECF3ED46</string>
+			<key>compatibilityVersion</key>
+			<string>Xcode 3.2</string>
+			<key>developmentRegion</key>
+			<string>English</string>
+			<key>hasScannedForEncodings</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXProject</string>
+			<key>knownRegions</key>
+			<array>
+				<string>en</string>
+			</array>
+			<key>mainGroup</key>
+			<string>F1F1C3F066C1F9D11C3B339C</string>
+			<key>productRefGroup</key>
+			<string>D13C84E92355965EC0557040</string>
+			<key>projectDirPath</key>
+			<string></string>
+			<key>projectReferences</key>
+			<array/>
+			<key>projectRoot</key>
+			<string></string>
+			<key>targets</key>
+			<array>
+				<string>CDF80D0088AB88D4B4C5C422</string>
+				<string>94C22BB6F6428D33B28BE65F</string>
+				<string>290FBABCCC4B7EA9A5E6FD3E</string>
+				<string>04975E6B5BB1562A5B015198</string>
+				<string>0C11C6918D4EA35915EA81DF</string>
+				<string>626B9EEAE43DDE54E9601AF3</string>
+			</array>
+		</dict>
+		<key>2D1DDBB81C80C72B1BA386B0</key>
 		<dict>
 			<key>isa</key>
 			<string>PBXTargetDependency</string>
 			<key>name</key>
-			<string>CROCOValidationForms</string>
+			<string>Pods-CROCOValidationForms_Tests-CROCOValidationForms</string>
 			<key>target</key>
-			<string>171881BA2BF39735F6849703</string>
+			<string>0C11C6918D4EA35915EA81DF</string>
 			<key>targetProxy</key>
-			<string>D6A0CE047157BAF4C86EF5F1</string>
+			<string>0CB2EA7E41B954548529D3FD</string>
 		</dict>
-		<key>2D767D6AF0A9BCFCEEC155E7</key>
+		<key>2EB344226693E11B6E1A271F</key>
+		<dict>
+			<key>fileRef</key>
+			<string>E5C005FDC55EF163AB00D58F</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>2FF88CC5FFF9C5631EEB0359</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Pods-CROCOValidationForms_Tests-acknowledgements.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>30ADE9C5A7408FD67782D639</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>FBSnapshotTestCasePlatform.h</string>
+			<key>path</key>
+			<string>FBSnapshotTestCase/FBSnapshotTestCasePlatform.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>3124FEFF8F1B80D21C1C466D</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>FBSnapshotTestCase.m</string>
+			<key>path</key>
+			<string>FBSnapshotTestCase/FBSnapshotTestCase.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>330515DA13FB8F8829B5B97F</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>2BD34B5761479DF8EA4462A1</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>CDF80D0088AB88D4B4C5C422</string>
+			<key>remoteInfo</key>
+			<string>CROCOValidationForms</string>
+		</dict>
+		<key>34F7A34CD2ECDDBAE9DAE2FB</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>libPods-CROCOValidationForms_Tests-CROCOValidationForms.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>3563B923DB12459015A30A3B</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>XCTest.framework</string>
+			<key>path</key>
+			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/XCTest.framework</string>
+			<key>sourceTree</key>
+			<string>DEVELOPER_DIR</string>
+		</dict>
+		<key>38AC1FF9E74EF45CED4D0B02</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>6D4E9BD333FA4C6B6A4FCBDA</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>NO</string>
+				<key>DSTROOT</key>
+				<string>/tmp/xcodeproj.dst</string>
+				<key>GCC_DYNAMIC_NO_PIC</key>
+				<string>NO</string>
+				<key>GCC_OPTIMIZATION_LEVEL</key>
+				<string>0</string>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Target Support Files/Pods-CROCOValidationForms_Tests-CROCOValidationForms/Pods-CROCOValidationForms_Tests-CROCOValidationForms-prefix.pch</string>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<array>
+					<string>DEBUG=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
+				<string>NO</string>
+				<key>INSTALL_PATH</key>
+				<string>$(BUILT_PRODUCTS_DIR)</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>7.1</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>38B8631D78820F3AB8079B40</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>F698E75C06E1C1F12081D09B</string>
+				<string>C08591D1903AE5F1921A4A8D</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>38E44E1CF2B158673BA13CF2</key>
+		<dict>
+			<key>fileRef</key>
+			<string>3124FEFF8F1B80D21C1C466D</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>39DC75BF168526B3DAD91609</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>98CBFEE18F4AC848FB9785CE</string>
+				<string>EBD6773FCBE1D58E97AD33C5</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>3AFDC554AB6BE224B068F60C</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>Pods-CROCOValidationForms_Example-dummy.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>3C1E8DA37988132A73D46C1E</key>
+		<dict>
+			<key>fileRef</key>
+			<string>B1845D6088C777DE878DDB0C</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>3F318D86A14C03997A7606F4</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>51DF4A8DEBFB1163432772AD</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>NO</string>
+				<key>DSTROOT</key>
+				<string>/tmp/xcodeproj.dst</string>
+				<key>GCC_DYNAMIC_NO_PIC</key>
+				<string>NO</string>
+				<key>GCC_OPTIMIZATION_LEVEL</key>
+				<string>0</string>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Target Support Files/Pods-CROCOValidationForms_Example-CROCOValidationForms/Pods-CROCOValidationForms_Example-CROCOValidationForms-prefix.pch</string>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<array>
+					<string>DEBUG=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
+				<string>NO</string>
+				<key>INSTALL_PATH</key>
+				<string>$(BUILT_PRODUCTS_DIR)</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>7.1</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>42BE0F82F03B25D2EC585E3E</key>
+		<dict>
+			<key>fileRef</key>
+			<string>D84B5A4A197767FC6D0B99F3</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>453CFA44C4C52197C3C4B3C4</key>
+		<dict>
+			<key>fileRef</key>
+			<string>D84B5A4A197767FC6D0B99F3</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>48BB352EB6F26527AAB16530</key>
+		<dict>
+			<key>fileRef</key>
+			<string>05D589B939ABA8200D114F2F</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>49AFA2060B4112D729F57F27</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>0CAA8F4874744720C116E167</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>NO</string>
+				<key>DSTROOT</key>
+				<string>/tmp/xcodeproj.dst</string>
+				<key>GCC_DYNAMIC_NO_PIC</key>
+				<string>NO</string>
+				<key>GCC_OPTIMIZATION_LEVEL</key>
+				<string>0</string>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Target Support Files/Pods-CROCOValidationForms_Tests-FBSnapshotTestCase/Pods-CROCOValidationForms_Tests-FBSnapshotTestCase-prefix.pch</string>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<array>
+					<string>DEBUG=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
+				<string>NO</string>
+				<key>INSTALL_PATH</key>
+				<string>$(BUILT_PRODUCTS_DIR)</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>7.1</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>4A7C0E0D97436C98E5AFD6B3</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>4B184C43A5268DCB24E83B69</key>
+		<dict>
+			<key>fileRef</key>
+			<string>166182B6A3F04B5CC3521AB0</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>4B4C19A0A69DFF3A6D6B3FAE</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>libPods-CROCOValidationForms_Example-CROCOValidationForms.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>4CD9F726715CE29D644028BE</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>Pods-CROCOValidationForms_Tests-FBSnapshotTestCase-dummy.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>4D182CF15F7D6268D3D3BE72</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>527D7898C74F5CBDD66E4EC1</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>4DC65A9C1F3005FE232CC98B</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>9E74E33B41B83B763A041FC6</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>NO</string>
+				<key>DSTROOT</key>
+				<string>/tmp/xcodeproj.dst</string>
+				<key>GCC_DYNAMIC_NO_PIC</key>
+				<string>NO</string>
+				<key>GCC_OPTIMIZATION_LEVEL</key>
+				<string>0</string>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<array>
+					<string>DEBUG=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
+				<string>NO</string>
+				<key>INSTALL_PATH</key>
+				<string>$(BUILT_PRODUCTS_DIR)</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>7.1</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>4E5BD46C03A2342E480870AF</key>
+		<dict>
+			<key>fileRef</key>
+			<string>3AFDC554AB6BE224B068F60C</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>50CC877431AF3BDCB00F2C41</key>
+		<dict>
+			<key>fileRef</key>
+			<string>A321AA055BECA5244F77C243</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>51DF4A8DEBFB1163432772AD</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>Pods-CROCOValidationForms_Example-CROCOValidationForms-Private.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>527D7898C74F5CBDD66E4EC1</key>
+		<dict>
+			<key>fileRef</key>
+			<string>05D589B939ABA8200D114F2F</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>52FABDCC41AFF147809EEE91</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>88B983329E9E75FC1A79A57F</string>
+				<string>02581AB85843AB22E45D490F</string>
+				<string>87BF8CAD76508DEADBCBAA49</string>
+				<string>BD72E4C4F912339EFCB1D2E3</string>
+				<string>3C1E8DA37988132A73D46C1E</string>
+				<string>C5648E62FBD1E4B019B0275F</string>
+			</array>
+			<key>isa</key>
+			<string>PBXHeadersBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>550DAECB432EBBDF1C689A0D</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>48BB352EB6F26527AAB16530</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>5A4965BF55C504FE82DAFBA4</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>name</key>
+			<string>Pods-CROCOValidationForms_Tests-FBSnapshotTestCase</string>
+			<key>target</key>
+			<string>626B9EEAE43DDE54E9601AF3</string>
+			<key>targetProxy</key>
+			<string>D60FB26F777CD6254BA9A7E5</string>
+		</dict>
+		<key>5D2CEF366A204988BFC50773</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>Pods-CROCOValidationForms_Example-CROCOValidationForms-dummy.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>60456348C3A3824CAA321E54</key>
+		<dict>
+			<key>fileRef</key>
+			<string>AE003C52942C1CBB6D15FAEF</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>615A56B1F2CFFB1B923844EA</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>FBSnapshotTestController.m</string>
+			<key>path</key>
+			<string>FBSnapshotTestCase/FBSnapshotTestController.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>626B9EEAE43DDE54E9601AF3</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>78CF8C1006F5744C5A0A5A10</string>
+			<key>buildPhases</key>
+			<array>
+				<string>ED5476AD263516D9CA4BFE20</string>
+				<string>08796ECBB01C9999B772743E</string>
+				<string>52FABDCC41AFF147809EEE91</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>Pods-CROCOValidationForms_Tests-FBSnapshotTestCase</string>
+			<key>productName</key>
+			<string>Pods-CROCOValidationForms_Tests-FBSnapshotTestCase</string>
+			<key>productReference</key>
+			<string>9DA3D1C82262D477F66D4893</string>
+			<key>productType</key>
+			<string>com.apple.product-type.library.static</string>
+		</dict>
+		<key>668D423855C0FCCB47EBF757</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>453CFA44C4C52197C3C4B3C4</string>
+			</array>
+			<key>isa</key>
+			<string>PBXHeadersBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>689F5FAAE73D295469DFAB2A</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>UIImage+Compare.h</string>
+			<key>path</key>
+			<string>FBSnapshotTestCase/Categories/UIImage+Compare.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6D4E9BD333FA4C6B6A4FCBDA</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>name</key>
+			<string>Pods-CROCOValidationForms_Tests-CROCOValidationForms-Private.xcconfig</string>
+			<key>path</key>
+			<string>../Pods-CROCOValidationForms_Tests-CROCOValidationForms/Pods-CROCOValidationForms_Tests-CROCOValidationForms-Private.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6DCEA8A7D3DEB990048D8ECB</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>2BD34B5761479DF8EA4462A1</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>CDF80D0088AB88D4B4C5C422</string>
+			<key>remoteInfo</key>
+			<string>CROCOValidationForms</string>
+		</dict>
+		<key>710C570DE2318AC486E6EA99</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>FBSnapshotTestCase.h</string>
+			<key>path</key>
+			<string>FBSnapshotTestCase/FBSnapshotTestCase.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>711BF8A34B2FBDCA2FF470DF</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>Pods-CROCOValidationForms_Example-CROCOValidationForms.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>73257FFF23DF81FD3530E300</key>
 		<dict>
 			<key>buildSettings</key>
 			<dict>
@@ -551,580 +1214,24 @@
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
-		<key>2E8F2EF365EFF7F50C814A61</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-CROCOValidationForms_Example-CROCOValidationForms.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2ED49FA09A0BF7E4116DA267</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>58C9805125992201806E0F34</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>171881BA2BF39735F6849703</string>
-			<key>remoteInfo</key>
-			<string>CROCOValidationForms</string>
-		</dict>
-		<key>32A48011B4680D6E3E79E1E3</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-CROCOValidationForms_Example-resources.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3430CF23380316A6A5E4E83F</key>
+		<key>73C3CD7D2B12F810E66E205A</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>19039C7ECDBA8FFB78562108</string>
-				<string>A7DE48A1C3E9F0674129EC8A</string>
-				<string>1F4823FA1EC23EB989F6A7C0</string>
-				<string>659EB4F997536A08E9C6AD9B</string>
-				<string>32A48011B4680D6E3E79E1E3</string>
-				<string>4BBBD4B173627624842932CC</string>
-				<string>8A2516AAECC97853C73DDB4A</string>
+				<string>CBD3F56FFD2D81CFBECF6AD3</string>
+				<string>EA464B037A4E3F863FE0A066</string>
+				<string>7B8CBEAC99B72E9B22229F46</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
 			<key>name</key>
-			<string>Pods-CROCOValidationForms_Example</string>
+			<string>FBSnapshotTestCase</string>
 			<key>path</key>
-			<string>Target Support Files/Pods-CROCOValidationForms_Example</string>
+			<string>FBSnapshotTestCase</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>3560CA4B48F3E072566E9659</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>2D767D6AF0A9BCFCEEC155E7</string>
-				<string>8A1F59F522FF147DABD12A41</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>372F22525126C96BD3061E59</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>FBSnapshotTestCase.m</string>
-			<key>path</key>
-			<string>FBSnapshotTestCase/FBSnapshotTestCase.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>383E4E6DD1C58D4A80D3B7E7</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>250CF02995B18452AAC8BAD6</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>39CD5044CCF5C9439F5CD92C</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Foundation.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>3B5F34A89335AD455DAB39F5</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C917024BC2073332B87425E8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>3E0534BFF7CB8F7EF9D91C33</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-CROCOValidationForms_Example-CROCOValidationForms-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>413A2106E0F23EDEDA191ADF</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-CROCOValidationForms_Tests-FBSnapshotTestCase-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4155EF696699604773AF1AAB</key>
-		<dict>
-			<key>fileRef</key>
-			<string>1DB104A579E54BF7C509E722</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>444270C6EBD55F8C73D8FC4C</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>B6DE3031C28C41F1BE356BB9</string>
-				<string>95FA2251775E33F3C2493B37</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>463ACC44DA04E6FD770978A7</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-CROCOValidationForms_Tests-CROCOValidationForms-Private.xcconfig</string>
-			<key>path</key>
-			<string>../Pods-CROCOValidationForms_Tests-CROCOValidationForms/Pods-CROCOValidationForms_Tests-CROCOValidationForms-Private.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>46A035160ECD60EC62E2A51E</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>092FB67E6CCAA20F514614C0</string>
-				<string>E53C62EE3E745D64D04FF2D1</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>47534BE79C61EAA80D2C36FD</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-CROCOValidationForms_Tests-FBSnapshotTestCase.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>485CDFA6C33A2C2F1723BD8F</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>88C8F574AD6B7E168F38E794</string>
-				<string>F8BD3742FDD74E60F70F7139</string>
-				<string>B054D9095DD579194131E31D</string>
-				<string>68422A0D4A9A52DA25DF16A6</string>
-				<string>BD6B8777E44154CFA1242BC9</string>
-				<string>E8CB1E62649E84C60D37A78E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4B01D00F88140FC9A83E90E6</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>8580AE1EB0FE8F3D3813C474</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>OTHER_CFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_CPLUSPLUSFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>4B535402CE43BE1D44493D4A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>39CD5044CCF5C9439F5CD92C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>4BBBD4B173627624842932CC</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-CROCOValidationForms_Example.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>50081772470BB00FE20524A1</key>
-		<dict>
-			<key>fileRef</key>
-			<string>20E8D6FF7F91C748759F157D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>523281451D084DA9B51E2026</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>27B99790E9D4430C6F0E5891</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>53B892A26D11C0B847971176</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>UIImage+Compare.m</string>
-			<key>path</key>
-			<string>FBSnapshotTestCase/Categories/UIImage+Compare.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>56691C0BBE91489F10A9DE26</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>A4EAEFD6AE20691A445FBF3F</string>
-			<key>buildPhases</key>
-			<array>
-				<string>9CD4FE62CD49CEE8EEF3461A</string>
-				<string>C07882DAB35BC5BBAA33ACC3</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>5F531F0515A2685E63743AC2</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-CROCOValidationForms_Example</string>
-			<key>productName</key>
-			<string>Pods-CROCOValidationForms_Example</string>
-			<key>productReference</key>
-			<string>F8BD3742FDD74E60F70F7139</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>57891FD6B163EEEF8B75F28B</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>58467BEE35673AB28CD16B69</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>FBSnapshotTestCasePlatform.h</string>
-			<key>path</key>
-			<string>FBSnapshotTestCase/FBSnapshotTestCasePlatform.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>58C9805125992201806E0F34</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastUpgradeCheck</key>
-				<string>0510</string>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>3560CA4B48F3E072566E9659</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-			</array>
-			<key>mainGroup</key>
-			<string>89FA8FC3C293584D179F3070</string>
-			<key>productRefGroup</key>
-			<string>485CDFA6C33A2C2F1723BD8F</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>171881BA2BF39735F6849703</string>
-				<string>56691C0BBE91489F10A9DE26</string>
-				<string>197926E3AD8A788A1BEC93DC</string>
-				<string>FBE0CE6C1B16DFB6201AA084</string>
-				<string>0627A53CD9541A465C4F0893</string>
-				<string>1EEC90B003BEFEE00C95C89F</string>
-			</array>
-		</dict>
-		<key>59F4E9D7B298A21DC6265E20</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>NSString+ValidationForms.m</string>
-			<key>path</key>
-			<string>Pod/Classes/NSString+ValidationForms.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5B7BCEECBA282285DB3728F1</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>E99250822E13865349FF8212</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-CROCOValidationForms_Tests-FBSnapshotTestCase/Pods-CROCOValidationForms_Tests-FBSnapshotTestCase-prefix.pch</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>5BF9CB7B5FF9DD0AEA50368F</key>
-		<dict>
-			<key>fileRef</key>
-			<string>39CD5044CCF5C9439F5CD92C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>5C337F30A878ADA0C7796699</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>name</key>
-			<string>Podfile</string>
-			<key>path</key>
-			<string>../Podfile</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-			<key>xcLanguageSpecificationIdentifier</key>
-			<string>xcode.lang.ruby</string>
-		</dict>
-		<key>5F531F0515A2685E63743AC2</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>Pods-CROCOValidationForms_Example-CROCOValidationForms</string>
-			<key>target</key>
-			<string>197926E3AD8A788A1BEC93DC</string>
-			<key>targetProxy</key>
-			<string>AA078F9AC6116D3ED649DEC2</string>
-		</dict>
-		<key>644E82CC8369120A19BBC286</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-CROCOValidationForms_Tests-CROCOValidationForms.xcconfig</string>
-			<key>path</key>
-			<string>../Pods-CROCOValidationForms_Tests-CROCOValidationForms/Pods-CROCOValidationForms_Tests-CROCOValidationForms.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>659EB4F997536A08E9C6AD9B</key>
+		<key>76215BC6E06F19EB48FCE802</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1137,40 +1244,118 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>663E069ED0F523C66A191D1F</key>
+		<key>766285FDB4F71CA3C9DAD339</key>
 		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>C79C13FA7C5C49AFC3AB2D96</string>
-			</array>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.script.sh</string>
+			<key>path</key>
+			<string>Pods-CROCOValidationForms_Tests-resources.sh</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
-		<key>66EBBE32214120469AB9E40A</key>
+		<key>78CF8C1006F5744C5A0A5A10</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>49AFA2060B4112D729F57F27</string>
+				<string>D50994CA6FF47B761E61C1FA</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>7A9CDDBCCF588338D5EF22BB</key>
 		<dict>
 			<key>fileRef</key>
-			<string>A9911BB1D634A6DE28BE4A25</string>
+			<string>83F39AC4278CE81C0279BACB</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>67CF41C28AA04A857CF55927</key>
+		<key>7B8CBEAC99B72E9B22229F46</key>
 		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
+			<key>children</key>
 			<array>
-				<string>95EEE0608D2ACF16069B968C</string>
+				<string>E56B12FF6A397CEC44D1CC68</string>
 			</array>
 			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>SwiftSupport</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
-		<key>68422A0D4A9A52DA25DF16A6</key>
+		<key>7D4E7AA7F988DA340E70A5E6</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>AA769DA62FCB103D0B089A7A</string>
+				<string>2FF88CC5FFF9C5631EEB0359</string>
+				<string>E5C005FDC55EF163AB00D58F</string>
+				<string>A2624522E977B84D4D07C160</string>
+				<string>766285FDB4F71CA3C9DAD339</string>
+				<string>E0B447794F67F5E3288DFBC4</string>
+				<string>EF5408D5957B18D89A545021</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Pods-CROCOValidationForms_Tests</string>
+			<key>path</key>
+			<string>Target Support Files/Pods-CROCOValidationForms_Tests</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7EFD2445E9BB9C2F5E31AAF1</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>UIImage+Snapshot.h</string>
+			<key>path</key>
+			<string>FBSnapshotTestCase/Categories/UIImage+Snapshot.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8139B9D43B040B99AEFBFDE8</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>73C3CD7D2B12F810E66E205A</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Pods</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>83F39AC4278CE81C0279BACB</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>FBSnapshotTestCasePlatform.m</string>
+			<key>path</key>
+			<string>FBSnapshotTestCase/FBSnapshotTestCasePlatform.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>85B4CBB80BAB822A434FBB20</key>
 		<dict>
 			<key>explicitFileType</key>
 			<string>archive.ar</string>
@@ -1183,101 +1368,93 @@
 			<key>sourceTree</key>
 			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
-		<key>6A0766EA6CEC1701A74B9D84</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>Pods-CROCOValidationForms_Tests-CROCOValidationForms</string>
-			<key>target</key>
-			<string>0627A53CD9541A465C4F0893</string>
-			<key>targetProxy</key>
-			<string>861A5BAD090BF7CDFCC37217</string>
-		</dict>
-		<key>6E08B10BD1EDBDA397CFBD64</key>
+		<key>86FE59A36C1B1800C243A914</key>
 		<dict>
 			<key>buildActionMask</key>
 			<string>2147483647</string>
 			<key>files</key>
 			<array>
-				<string>DA34BC69C1C46ADDA4528CE0</string>
-				<string>109886F31915B0D8DCBAC239</string>
+				<string>D3CCA399EF777F89485D8684</string>
+				<string>4B184C43A5268DCB24E83B69</string>
 			</array>
 			<key>isa</key>
 			<string>PBXSourcesBuildPhase</string>
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>6E3C5D976A87ACFC9FD08994</key>
+		<key>8714662AE904B508B92C90DD</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>baseConfigurationReference</key>
+			<string>E0B447794F67F5E3288DFBC4</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>NO</string>
+				<key>DSTROOT</key>
+				<string>/tmp/xcodeproj.dst</string>
+				<key>GCC_DYNAMIC_NO_PIC</key>
+				<string>NO</string>
+				<key>GCC_OPTIMIZATION_LEVEL</key>
+				<string>0</string>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<array>
+					<string>DEBUG=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
+				<string>NO</string>
+				<key>INSTALL_PATH</key>
+				<string>$(BUILT_PRODUCTS_DIR)</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>7.1</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+			</dict>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-CROCOValidationForms_Tests-environment.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6FD063A3E51473ED1BB16F1B</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>E6CF66A6704B12FCE058B97B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
+			<string>XCBuildConfiguration</string>
 			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>Debug</string>
 		</dict>
-		<key>743C07C727A8DA44D92DB8B8</key>
+		<key>87BF8CAD76508DEADBCBAA49</key>
 		<dict>
-			<key>children</key>
-			<array>
-				<string>8CDEBE5B135E3E569D29F9ED</string>
-				<string>9613F3247BB49EB54B3557D3</string>
-				<string>ACD28AACDB969B827C9C892C</string>
-			</array>
+			<key>fileRef</key>
+			<string>B0BBAAFACB800AA43ADE12FF</string>
 			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>FBSnapshotTestCase</string>
-			<key>path</key>
-			<string>FBSnapshotTestCase</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>PBXBuildFile</string>
 		</dict>
-		<key>76954BEF35DBD18AEEF699C7</key>
+		<key>88B983329E9E75FC1A79A57F</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>fileRef</key>
+			<string>710C570DE2318AC486E6EA99</string>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>Pods-CROCOValidationForms_Tests-CROCOValidationForms-dummy.m</string>
-			<key>path</key>
-			<string>../Pods-CROCOValidationForms_Tests-CROCOValidationForms/Pods-CROCOValidationForms_Tests-CROCOValidationForms-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>PBXBuildFile</string>
 		</dict>
-		<key>7BED33BC3D350867E92B753C</key>
+		<key>8AF5BF6DE37EE4E7488C0157</key>
 		<dict>
 			<key>isa</key>
 			<string>PBXTargetDependency</string>
 			<key>name</key>
-			<string>Pods-CROCOValidationForms_Tests-FBSnapshotTestCase</string>
+			<string>CROCOValidationForms</string>
 			<key>target</key>
-			<string>1EEC90B003BEFEE00C95C89F</string>
+			<string>CDF80D0088AB88D4B4C5C422</string>
 			<key>targetProxy</key>
-			<string>EA64F09246515582014A0C4C</string>
+			<string>6DCEA8A7D3DEB990048D8ECB</string>
 		</dict>
-		<key>8580AE1EB0FE8F3D3813C474</key>
+		<key>91FCEFB6DC85971572F38380</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1286,31 +1463,51 @@
 			<key>lastKnownFileType</key>
 			<string>text.xcconfig</string>
 			<key>path</key>
-			<string>Pods-CROCOValidationForms_Tests.release.xcconfig</string>
+			<string>Pods-CROCOValidationForms_Example.release.xcconfig</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>85EFC7A1A4B18A73F437AA01</key>
+		<key>92BBB7BBC19EB63591D50161</key>
 		<dict>
-			<key>fileRef</key>
-			<string>034E57BE589DC001A07EC51C</string>
+			<key>buildConfigurations</key>
+			<array>
+				<string>4DC65A9C1F3005FE232CC98B</string>
+				<string>01AB3D952A11FCEE021CBC9D</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
+			<string>XCConfigurationList</string>
 		</dict>
-		<key>861A5BAD090BF7CDFCC37217</key>
+		<key>94C22BB6F6428D33B28BE65F</key>
 		<dict>
-			<key>containerPortal</key>
-			<string>58C9805125992201806E0F34</string>
+			<key>buildConfigurationList</key>
+			<string>92BBB7BBC19EB63591D50161</string>
+			<key>buildPhases</key>
+			<array>
+				<string>DF4B5DC8FE906B6D78ADA35F</string>
+				<string>0B8F8C720EDEA101F960387A</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array>
+				<string>DF18DF53E27B414A37836BC0</string>
+			</array>
 			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>0627A53CD9541A465C4F0893</string>
-			<key>remoteInfo</key>
-			<string>Pods-CROCOValidationForms_Tests-CROCOValidationForms</string>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>Pods-CROCOValidationForms_Example</string>
+			<key>productName</key>
+			<string>Pods-CROCOValidationForms_Example</string>
+			<key>productReference</key>
+			<string>F0077CCCC800454D2C455FF8</string>
+			<key>productType</key>
+			<string>com.apple.product-type.library.static</string>
 		</dict>
-		<key>88C8F574AD6B7E168F38E794</key>
+		<key>98054BCA6D4F6650E0910C43</key>
 		<dict>
 			<key>explicitFileType</key>
 			<string>wrapper.cfbundle</string>
@@ -1323,23 +1520,243 @@
 			<key>sourceTree</key>
 			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
-		<key>89FA8FC3C293584D179F3070</key>
+		<key>98CBFEE18F4AC848FB9785CE</key>
+		<dict>
+			<key>fileRef</key>
+			<string>1C1100A637B37C3C2C37A62A</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>991165F41D5E4F7FBF83F44B</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>5C337F30A878ADA0C7796699</string>
-				<string>92E9537C219E27832A34CCC8</string>
-				<string>6FD063A3E51473ED1BB16F1B</string>
-				<string>977CDE88073516E0CA1158C0</string>
-				<string>485CDFA6C33A2C2F1723BD8F</string>
-				<string>CC8E5157940FB687BCC1EB32</string>
+				<string>05D589B939ABA8200D114F2F</string>
+				<string>3563B923DB12459015A30A3B</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
+			<key>name</key>
+			<string>iOS</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>8A1F59F522FF147DABD12A41</key>
+		<key>9ADFF18B32BAABAF831BF301</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>42BE0F82F03B25D2EC585E3E</string>
+			</array>
+			<key>isa</key>
+			<string>PBXHeadersBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>9BD94FA17AA4AA04E8370C39</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>711BF8A34B2FBDCA2FF470DF</string>
+				<string>51DF4A8DEBFB1163432772AD</string>
+				<string>5D2CEF366A204988BFC50773</string>
+				<string>9D11050C9AC5BB8CC92A4EBA</string>
+				<string>EF05FBE02FFD9B8E9AFCE4B9</string>
+				<string>6D4E9BD333FA4C6B6A4FCBDA</string>
+				<string>166182B6A3F04B5CC3521AB0</string>
+				<string>C2C45C5DD1BB2E74C5652A89</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Support Files</string>
+			<key>path</key>
+			<string>Example/Pods/Target Support Files/Pods-CROCOValidationForms_Example-CROCOValidationForms</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9D11050C9AC5BB8CC92A4EBA</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>Pods-CROCOValidationForms_Example-CROCOValidationForms-prefix.pch</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9DA3D1C82262D477F66D4893</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>libPods-CROCOValidationForms_Tests-FBSnapshotTestCase.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>9E74E33B41B83B763A041FC6</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>Pods-CROCOValidationForms_Example.debug.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>A2624522E977B84D4D07C160</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>Pods-CROCOValidationForms_Tests-environment.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>A29BA11AC9FCD0177474F5E9</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXResourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>A321AA055BECA5244F77C243</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>UIImage+Diff.m</string>
+			<key>path</key>
+			<string>FBSnapshotTestCase/Categories/UIImage+Diff.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>A85192EC8A9D28E0D6D4980E</key>
+		<dict>
+			<key>fileRef</key>
+			<string>05D589B939ABA8200D114F2F</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>AA769DA62FCB103D0B089A7A</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text</string>
+			<key>path</key>
+			<string>Pods-CROCOValidationForms_Tests-acknowledgements.markdown</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>AE003C52942C1CBB6D15FAEF</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>UIImage+Snapshot.m</string>
+			<key>path</key>
+			<string>FBSnapshotTestCase/Categories/UIImage+Snapshot.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>AFCC913DEEFF9A35A9C4126B</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>Pods-CROCOValidationForms_Tests-FBSnapshotTestCase.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B0BBAAFACB800AA43ADE12FF</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>FBSnapshotTestController.h</string>
+			<key>path</key>
+			<string>FBSnapshotTestCase/FBSnapshotTestController.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B1845D6088C777DE878DDB0C</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>UIImage+Diff.h</string>
+			<key>path</key>
+			<string>FBSnapshotTestCase/Categories/UIImage+Diff.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B5CD309A0096158AD33F821A</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>name</key>
+			<string>CROCOValidationForms</string>
+			<key>target</key>
+			<string>CDF80D0088AB88D4B4C5C422</string>
+			<key>targetProxy</key>
+			<string>330515DA13FB8F8829B5B97F</string>
+		</dict>
+		<key>BC4950878D12B77A4288EE5C</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>A85192EC8A9D28E0D6D4980E</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>BD192B13A3B5913CC7D9DA02</key>
 		<dict>
 			<key>buildSettings</key>
 			<dict>
@@ -1401,572 +1818,14 @@
 			<key>name</key>
 			<string>Release</string>
 		</dict>
-		<key>8A2516AAECC97853C73DDB4A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-CROCOValidationForms_Example.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8CDEBE5B135E3E569D29F9ED</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>B06B1B3DD6DD95A5F9D17400</string>
-				<string>372F22525126C96BD3061E59</string>
-				<string>58467BEE35673AB28CD16B69</string>
-				<string>C917024BC2073332B87425E8</string>
-				<string>8D6BB834D7C2670523EFD891</string>
-				<string>0CE4D851F1504D1C8B5AD102</string>
-				<string>1DB104A579E54BF7C509E722</string>
-				<string>53B892A26D11C0B847971176</string>
-				<string>D5EAC9A81A5FA0E1447D7CE4</string>
-				<string>10D3E4462D99CDEAA26D2CAC</string>
-				<string>B9E5F3783CC46D107F028A91</string>
-				<string>A9911BB1D634A6DE28BE4A25</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Core</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8CEF62ECEEF47BA560E98A1D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-CROCOValidationForms_Example-CROCOValidationForms-Private.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8D6BB834D7C2670523EFD891</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>FBSnapshotTestController.h</string>
-			<key>path</key>
-			<string>FBSnapshotTestCase/FBSnapshotTestController.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8F17E72C809686B5387B6E02</key>
+		<key>BD72E4C4F912339EFCB1D2E3</key>
 		<dict>
 			<key>fileRef</key>
-			<string>413A2106E0F23EDEDA191ADF</string>
+			<string>689F5FAAE73D295469DFAB2A</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>8FAACF05664456266C9A466E</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>4BBBD4B173627624842932CC</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>900F36B84328ACA3F357B50F</key>
-		<dict>
-			<key>fileRef</key>
-			<string>1F4823FA1EC23EB989F6A7C0</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>92E9537C219E27832A34CCC8</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>12532C2E1B544C3517E496B3</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Development Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>95EEE0608D2ACF16069B968C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9F1B05406E2A80A1E1FE82EF</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>95FA2251775E33F3C2493B37</key>
-		<dict>
-			<key>fileRef</key>
-			<string>AD272D02FDF35F46C4480386</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9613F3247BB49EB54B3557D3</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>47534BE79C61EAA80D2C36FD</string>
-				<string>E99250822E13865349FF8212</string>
-				<string>413A2106E0F23EDEDA191ADF</string>
-				<string>D4440C6E259C8A34DEAAA020</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Support Files</string>
-			<key>path</key>
-			<string>../Target Support Files/Pods-CROCOValidationForms_Tests-FBSnapshotTestCase</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>977CDE88073516E0CA1158C0</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>743C07C727A8DA44D92DB8B8</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9CD4FE62CD49CEE8EEF3461A</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>900F36B84328ACA3F357B50F</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>9D4B82B8069203E7885C9C0E</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>F6F200FADC995DE6ADBFE40B</string>
-				<string>2C8A292031E4A9C0F926EB17</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>9F1B05406E2A80A1E1FE82EF</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>NSString+ValidationForms.h</string>
-			<key>path</key>
-			<string>Pod/Classes/NSString+ValidationForms.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A0C19C3C8767682C138B7CB1</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>path</key>
-			<string>Pods-CROCOValidationForms_Tests-acknowledgements.markdown</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A2DECC5AF727B84BF3A80806</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>2E8F2EF365EFF7F50C814A61</string>
-				<string>8CEF62ECEEF47BA560E98A1D</string>
-				<string>AD272D02FDF35F46C4480386</string>
-				<string>3E0534BFF7CB8F7EF9D91C33</string>
-				<string>644E82CC8369120A19BBC286</string>
-				<string>463ACC44DA04E6FD770978A7</string>
-				<string>76954BEF35DBD18AEEF699C7</string>
-				<string>24F26DBFC0A4424549881B84</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Support Files</string>
-			<key>path</key>
-			<string>Example/Pods/Target Support Files/Pods-CROCOValidationForms_Example-CROCOValidationForms</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A4EAEFD6AE20691A445FBF3F</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>8FAACF05664456266C9A466E</string>
-				<string>D8E5A352B4E801AC9F20A92D</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>A75373D74753F576AE1F64D1</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B9E5F3783CC46D107F028A91</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>A7DE48A1C3E9F0674129EC8A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Pods-CROCOValidationForms_Example-acknowledgements.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A9911BB1D634A6DE28BE4A25</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>UIImage+Snapshot.m</string>
-			<key>path</key>
-			<string>FBSnapshotTestCase/Categories/UIImage+Snapshot.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AA078F9AC6116D3ED649DEC2</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>58C9805125992201806E0F34</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>197926E3AD8A788A1BEC93DC</string>
-			<key>remoteInfo</key>
-			<string>Pods-CROCOValidationForms_Example-CROCOValidationForms</string>
-		</dict>
-		<key>ACD28AACDB969B827C9C892C</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>20E8D6FF7F91C748759F157D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>SwiftSupport</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AD272D02FDF35F46C4480386</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-CROCOValidationForms_Example-CROCOValidationForms-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B054D9095DD579194131E31D</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-CROCOValidationForms_Example-CROCOValidationForms.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>B06B1B3DD6DD95A5F9D17400</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>FBSnapshotTestCase.h</string>
-			<key>path</key>
-			<string>FBSnapshotTestCase/FBSnapshotTestCase.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B0923F1D6CE9A446B247A815</key>
-		<dict>
-			<key>fileRef</key>
-			<string>10D3E4462D99CDEAA26D2CAC</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>B6DE3031C28C41F1BE356BB9</key>
-		<dict>
-			<key>fileRef</key>
-			<string>59F4E9D7B298A21DC6265E20</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>B86C5FADC097E1C3A61DFE6D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Pods-CROCOValidationForms_Tests-acknowledgements.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B985369ACBDEFA3F9632F409</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>5BF9CB7B5FF9DD0AEA50368F</string>
-				<string>85EFC7A1A4B18A73F437AA01</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>B9A1C364AF855640C1E9EA42</key>
-		<dict>
-			<key>fileRef</key>
-			<string>39CD5044CCF5C9439F5CD92C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>B9E5F3783CC46D107F028A91</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>UIImage+Snapshot.h</string>
-			<key>path</key>
-			<string>FBSnapshotTestCase/Categories/UIImage+Snapshot.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BCAEAD9F7CBB0C5D375377B9</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8D6BB834D7C2670523EFD891</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>BD6B8777E44154CFA1242BC9</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-CROCOValidationForms_Tests-CROCOValidationForms.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>BFB00A805D97616878D06FE1</key>
-		<dict>
-			<key>fileRef</key>
-			<string>58467BEE35673AB28CD16B69</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>C07882DAB35BC5BBAA33ACC3</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>1E376AA368B25A317A8C51EB</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>C0CBEF101DBBD0782CAB31EC</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>A0C19C3C8767682C138B7CB1</string>
-				<string>B86C5FADC097E1C3A61DFE6D</string>
-				<string>0B399B60F7B0447D0FFB701F</string>
-				<string>6E3C5D976A87ACFC9FD08994</string>
-				<string>D644ADAE5DFFCEFE516558DD</string>
-				<string>250CF02995B18452AAC8BAD6</string>
-				<string>8580AE1EB0FE8F3D3813C474</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods-CROCOValidationForms_Tests</string>
-			<key>path</key>
-			<string>Target Support Files/Pods-CROCOValidationForms_Tests</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C423023D05EE9E997169C31B</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>383E4E6DD1C58D4A80D3B7E7</string>
-				<string>4B01D00F88140FC9A83E90E6</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>C79C13FA7C5C49AFC3AB2D96</key>
-		<dict>
-			<key>fileRef</key>
-			<string>39CD5044CCF5C9439F5CD92C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>C85DD6D3F0048D993AE284A4</key>
-		<dict>
-			<key>fileRef</key>
-			<string>0CE4D851F1504D1C8B5AD102</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>C917024BC2073332B87425E8</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>FBSnapshotTestCasePlatform.m</string>
-			<key>path</key>
-			<string>FBSnapshotTestCase/FBSnapshotTestCasePlatform.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>CA2753ED567CD58AB9BC94CA</key>
-		<dict>
-			<key>fileRef</key>
-			<string>53B892A26D11C0B847971176</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>CC8E5157940FB687BCC1EB32</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>3430CF23380316A6A5E4E83F</string>
-				<string>C0CBEF101DBBD0782CAB31EC</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Targets Support Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D0F0191E625D56570AECD3ED</key>
+		<key>C08591D1903AE5F1921A4A8D</key>
 		<dict>
 			<key>buildSettings</key>
 			<dict>
@@ -1982,22 +1841,9 @@
 			<key>isa</key>
 			<string>XCBuildConfiguration</string>
 			<key>name</key>
-			<string>Debug</string>
+			<string>Release</string>
 		</dict>
-		<key>D4440C6E259C8A34DEAAA020</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-CROCOValidationForms_Tests-FBSnapshotTestCase-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D5EAC9A81A5FA0E1447D7CE4</key>
+		<key>C2C45C5DD1BB2E74C5652A89</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -2006,56 +1852,51 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>UIImage+Diff.h</string>
+			<string>Pods-CROCOValidationForms_Tests-CROCOValidationForms-prefix.pch</string>
 			<key>path</key>
-			<string>FBSnapshotTestCase/Categories/UIImage+Diff.h</string>
+			<string>../Pods-CROCOValidationForms_Tests-CROCOValidationForms/Pods-CROCOValidationForms_Tests-CROCOValidationForms-prefix.pch</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>D644ADAE5DFFCEFE516558DD</key>
+		<key>C384366471142A02531DD308</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>UIImage+Compare.m</string>
 			<key>path</key>
-			<string>Pods-CROCOValidationForms_Tests-resources.sh</string>
+			<string>FBSnapshotTestCase/Categories/UIImage+Compare.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>D6A0CE047157BAF4C86EF5F1</key>
+		<key>C5648E62FBD1E4B019B0275F</key>
 		<dict>
-			<key>containerPortal</key>
-			<string>58C9805125992201806E0F34</string>
+			<key>fileRef</key>
+			<string>7EFD2445E9BB9C2F5E31AAF1</string>
 			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>171881BA2BF39735F6849703</string>
-			<key>remoteInfo</key>
-			<string>CROCOValidationForms</string>
+			<string>PBXBuildFile</string>
 		</dict>
-		<key>D7E93B20C28FC5A8AA0DB44D</key>
+		<key>C720C374A9427AF557649AC5</key>
 		<dict>
-			<key>buildConfigurations</key>
+			<key>children</key>
 			<array>
-				<string>D0F0191E625D56570AECD3ED</string>
-				<string>DF3E012387863FD8335EF89D</string>
+				<string>991165F41D5E4F7FBF83F44B</string>
 			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
 			<key>isa</key>
-			<string>XCConfigurationList</string>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Frameworks</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
-		<key>D8E5A352B4E801AC9F20A92D</key>
+		<key>C8A3B42F648FB3FC290E8A71</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>8A2516AAECC97853C73DDB4A</string>
+			<string>EF5408D5957B18D89A545021</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>ALWAYS_SEARCH_USER_PATHS</key>
@@ -2100,56 +1941,59 @@
 			<key>name</key>
 			<string>Release</string>
 		</dict>
-		<key>DA34BC69C1C46ADDA4528CE0</key>
+		<key>CBD3F56FFD2D81CFBECF6AD3</key>
 		<dict>
-			<key>fileRef</key>
-			<string>59F4E9D7B298A21DC6265E20</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DC4D3C5DDB2649E07B638FD9</key>
-		<dict>
-			<key>buildConfigurations</key>
+			<key>children</key>
 			<array>
-				<string>5B7BCEECBA282285DB3728F1</string>
-				<string>F795CF9222856275B67F88E6</string>
+				<string>710C570DE2318AC486E6EA99</string>
+				<string>3124FEFF8F1B80D21C1C466D</string>
+				<string>30ADE9C5A7408FD67782D639</string>
+				<string>83F39AC4278CE81C0279BACB</string>
+				<string>B0BBAAFACB800AA43ADE12FF</string>
+				<string>615A56B1F2CFFB1B923844EA</string>
+				<string>689F5FAAE73D295469DFAB2A</string>
+				<string>C384366471142A02531DD308</string>
+				<string>B1845D6088C777DE878DDB0C</string>
+				<string>A321AA055BECA5244F77C243</string>
+				<string>7EFD2445E9BB9C2F5E31AAF1</string>
+				<string>AE003C52942C1CBB6D15FAEF</string>
 			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
 			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>DEA22A2828560B859471DE62</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D5EAC9A81A5FA0E1447D7CE4</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DF3E012387863FD8335EF89D</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>bundle</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
+			<string>PBXGroup</string>
 			<key>name</key>
-			<string>Release</string>
+			<string>Core</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
-		<key>E53C62EE3E745D64D04FF2D1</key>
+		<key>CDF80D0088AB88D4B4C5C422</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>38B8631D78820F3AB8079B40</string>
+			<key>buildPhases</key>
+			<array>
+				<string>0D6A3FCBA0C0521C46F1E14D</string>
+				<string>4A7C0E0D97436C98E5AFD6B3</string>
+				<string>A29BA11AC9FCD0177474F5E9</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>CROCOValidationForms</string>
+			<key>productName</key>
+			<string>CROCOValidationForms</string>
+			<key>productReference</key>
+			<string>98054BCA6D4F6650E0910C43</string>
+			<key>productType</key>
+			<string>com.apple.product-type.bundle</string>
+		</dict>
+		<key>D10C90BA5188F5137EB58FED</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>463ACC44DA04E6FD770978A7</string>
+			<string>6D4E9BD333FA4C6B6A4FCBDA</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>ALWAYS_SEARCH_USER_PATHS</key>
@@ -2196,123 +2040,42 @@
 			<key>name</key>
 			<string>Release</string>
 		</dict>
-		<key>E6CF66A6704B12FCE058B97B</key>
+		<key>D13C84E92355965EC0557040</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>39CD5044CCF5C9439F5CD92C</string>
-				<string>034E57BE589DC001A07EC51C</string>
+				<string>98054BCA6D4F6650E0910C43</string>
+				<string>F0077CCCC800454D2C455FF8</string>
+				<string>4B4C19A0A69DFF3A6D6B3FAE</string>
+				<string>85B4CBB80BAB822A434FBB20</string>
+				<string>34F7A34CD2ECDDBAE9DAE2FB</string>
+				<string>9DA3D1C82262D477F66D4893</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
 			<key>name</key>
-			<string>iOS</string>
+			<string>Products</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>E8CB1E62649E84C60D37A78E</key>
+		<key>D38F5CCF3272AC31FED204F9</key>
 		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
+			<key>fileRef</key>
+			<string>615A56B1F2CFFB1B923844EA</string>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-CROCOValidationForms_Tests-FBSnapshotTestCase.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
+			<string>PBXBuildFile</string>
 		</dict>
-		<key>E99250822E13865349FF8212</key>
+		<key>D3CCA399EF777F89485D8684</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>fileRef</key>
+			<string>1C1100A637B37C3C2C37A62A</string>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-CROCOValidationForms_Tests-FBSnapshotTestCase-Private.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>PBXBuildFile</string>
 		</dict>
-		<key>EA64F09246515582014A0C4C</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>58C9805125992201806E0F34</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>1EEC90B003BEFEE00C95C89F</string>
-			<key>remoteInfo</key>
-			<string>Pods-CROCOValidationForms_Tests-FBSnapshotTestCase</string>
-		</dict>
-		<key>EB06C8EB76344CE726294DE0</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>F6F200FADC995DE6ADBFE40B</key>
+		<key>D50994CA6FF47B761E61C1FA</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>8CEF62ECEEF47BA560E98A1D</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-CROCOValidationForms_Example-CROCOValidationForms/Pods-CROCOValidationForms_Example-CROCOValidationForms-prefix.pch</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>F795CF9222856275B67F88E6</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>E99250822E13865349FF8212</string>
+			<string>0CAA8F4874744720C116E167</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>ALWAYS_SEARCH_USER_PATHS</key>
@@ -2359,14 +2122,248 @@
 			<key>name</key>
 			<string>Release</string>
 		</dict>
-		<key>F8A884CD6F4387FDA443672F</key>
+		<key>D60FB26F777CD6254BA9A7E5</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>2BD34B5761479DF8EA4462A1</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>626B9EEAE43DDE54E9601AF3</string>
+			<key>remoteInfo</key>
+			<string>Pods-CROCOValidationForms_Tests-FBSnapshotTestCase</string>
+		</dict>
+		<key>D747C3DB43966B639F5DC79C</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>8714662AE904B508B92C90DD</string>
+				<string>C8A3B42F648FB3FC290E8A71</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>D84B5A4A197767FC6D0B99F3</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>CROCOValidationForms.h</string>
+			<key>path</key>
+			<string>Pod/Classes/CROCOValidationForms.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>D98F79EF853AED19AE99FD27</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>0FBBA8FAA6BF437530B6455F</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Development Pods</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>DBF1C025B86CEB11A843BF7E</key>
 		<dict>
 			<key>fileRef</key>
-			<string>372F22525126C96BD3061E59</string>
+			<string>E56B12FF6A397CEC44D1CC68</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>F8BD3742FDD74E60F70F7139</key>
+		<key>DF18DF53E27B414A37836BC0</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>name</key>
+			<string>Pods-CROCOValidationForms_Example-CROCOValidationForms</string>
+			<key>target</key>
+			<string>290FBABCCC4B7EA9A5E6FD3E</string>
+			<key>targetProxy</key>
+			<string>FE357DCE5285720096CCD47E</string>
+		</dict>
+		<key>DF4B5DC8FE906B6D78ADA35F</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>4E5BD46C03A2342E480870AF</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>E0B447794F67F5E3288DFBC4</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>Pods-CROCOValidationForms_Tests.debug.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E3648AC1ECC79C4DD65F2BE8</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>3F318D86A14C03997A7606F4</string>
+				<string>213AFDF29296498D6254DB3C</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>E4E15F58E8434F829D8A00E0</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.script.sh</string>
+			<key>path</key>
+			<string>Pods-CROCOValidationForms_Example-resources.sh</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E56B12FF6A397CEC44D1CC68</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>SwiftSupport.swift</string>
+			<key>path</key>
+			<string>FBSnapshotTestCase/SwiftSupport.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E5C005FDC55EF163AB00D58F</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>Pods-CROCOValidationForms_Tests-dummy.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>EA464B037A4E3F863FE0A066</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>AFCC913DEEFF9A35A9C4126B</string>
+				<string>0CAA8F4874744720C116E167</string>
+				<string>4CD9F726715CE29D644028BE</string>
+				<string>104094F362A3F59FA65B1E7F</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Support Files</string>
+			<key>path</key>
+			<string>../Target Support Files/Pods-CROCOValidationForms_Tests-FBSnapshotTestCase</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>EBD6773FCBE1D58E97AD33C5</key>
+		<dict>
+			<key>fileRef</key>
+			<string>5D2CEF366A204988BFC50773</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>ED5476AD263516D9CA4BFE20</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>38E44E1CF2B158673BA13CF2</string>
+				<string>7A9CDDBCCF588338D5EF22BB</string>
+				<string>D38F5CCF3272AC31FED204F9</string>
+				<string>1EB902E17538B97A292B4B95</string>
+				<string>DBF1C025B86CEB11A843BF7E</string>
+				<string>1840DDCF100F43D45967C190</string>
+				<string>50CC877431AF3BDCB00F2C41</string>
+				<string>60456348C3A3824CAA321E54</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>EEF0F27CDF8F2A8A32FC5300</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>1BA41BEA3DD98F13C81BC446</string>
+				<string>7D4E7AA7F988DA340E70A5E6</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Targets Support Files</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>EF05FBE02FFD9B8E9AFCE4B9</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>name</key>
+			<string>Pods-CROCOValidationForms_Tests-CROCOValidationForms.xcconfig</string>
+			<key>path</key>
+			<string>../Pods-CROCOValidationForms_Tests-CROCOValidationForms/Pods-CROCOValidationForms_Tests-CROCOValidationForms.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>EF5408D5957B18D89A545021</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>Pods-CROCOValidationForms_Tests.release.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>F0077CCCC800454D2C455FF8</key>
 		<dict>
 			<key>explicitFileType</key>
 			<string>archive.ar</string>
@@ -2379,66 +2376,69 @@
 			<key>sourceTree</key>
 			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
-		<key>FB81B3D05525BE3020665A36</key>
+		<key>F1F1C3F066C1F9D11C3B339C</key>
 		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
+			<key>children</key>
 			<array>
-				<string>4B535402CE43BE1D44493D4A</string>
+				<string>122601BA73EF75D6F44DB2E5</string>
+				<string>D98F79EF853AED19AE99FD27</string>
+				<string>C720C374A9427AF557649AC5</string>
+				<string>8139B9D43B040B99AEFBFDE8</string>
+				<string>D13C84E92355965EC0557040</string>
+				<string>EEF0F27CDF8F2A8A32FC5300</string>
 			</array>
 			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
+			<string>PBXGroup</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
-		<key>FBE0CE6C1B16DFB6201AA084</key>
+		<key>F698E75C06E1C1F12081D09B</key>
 		<dict>
-			<key>buildConfigurationList</key>
-			<string>C423023D05EE9E997169C31B</string>
-			<key>buildPhases</key>
-			<array>
-				<string>1C859AB29E9C626E7C3EDCF9</string>
-				<string>2BDD7DF79F8628634039ECEC</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>6A0766EA6CEC1701A74B9D84</string>
-				<string>7BED33BC3D350867E92B753C</string>
-			</array>
+			<key>buildSettings</key>
+			<dict>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>WRAPPER_EXTENSION</key>
+				<string>bundle</string>
+			</dict>
 			<key>isa</key>
-			<string>PBXNativeTarget</string>
+			<string>XCBuildConfiguration</string>
 			<key>name</key>
-			<string>Pods-CROCOValidationForms_Tests</string>
-			<key>productName</key>
-			<string>Pods-CROCOValidationForms_Tests</string>
-			<key>productReference</key>
-			<string>68422A0D4A9A52DA25DF16A6</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
+			<string>Debug</string>
 		</dict>
-		<key>FF2DE9BE82FAE78BCD9D873E</key>
+		<key>FE357DCE5285720096CCD47E</key>
 		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>08727683F46BFEE8A9129E99</string>
-				<string>BFB00A805D97616878D06FE1</string>
-				<string>BCAEAD9F7CBB0C5D375377B9</string>
-				<string>4155EF696699604773AF1AAB</string>
-				<string>DEA22A2828560B859471DE62</string>
-				<string>A75373D74753F576AE1F64D1</string>
-			</array>
+			<key>containerPortal</key>
+			<string>2BD34B5761479DF8EA4462A1</string>
 			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>290FBABCCC4B7EA9A5E6FD3E</string>
+			<key>remoteInfo</key>
+			<string>Pods-CROCOValidationForms_Example-CROCOValidationForms</string>
+		</dict>
+		<key>FF9E49FF540BB2B69489FD83</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>38AC1FF9E74EF45CED4D0B02</string>
+				<string>D10C90BA5188F5137EB58FED</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
 			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
 		</dict>
 	</dict>
 	<key>rootObject</key>
-	<string>58C9805125992201806E0F34</string>
+	<string>2BD34B5761479DF8EA4462A1</string>
 </dict>
 </plist>

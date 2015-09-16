@@ -6,7 +6,7 @@
 //  Copyright (c) 2015 crocode. All rights reserved.
 //
 
-#import "NSString+ValidationForms.h"
+#import "CROCOValidationForms.h"
 
 @implementation NSString (ValidationForms)
 

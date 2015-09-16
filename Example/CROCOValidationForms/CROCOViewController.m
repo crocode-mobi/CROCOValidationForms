@@ -9,7 +9,7 @@
 #import "CROCOViewController.h"
 
 // Utils
-#import <NSString+ValidationForms.h>
+#import <CROCOValidationForms.h>
 
 @interface CROCOViewController ()
 
