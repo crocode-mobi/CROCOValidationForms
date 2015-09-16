@@ -20,11 +20,11 @@ Pod::Spec.new do |s|
   CROCOValidationForms is a Objective C category developed by CROCODE team to validate strings forms. We usually use this category with the uitextfield content.
                        DESC
 
-  s.homepage         = "https://github.com/crocode-mobi/CROCODE/CROCOValidationForms"
+  s.homepage         = "https://github.com/crocode-mobi/CROCOValidationForms"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "pb.ojeda" => "pb.ojeda@gmail.com", "robmarco" => "robmarco@gmail.com" }
-  s.source           = { :git => "https://github.com/crocode-mobi/CROCODE/CROCOValidationForms.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/crocode-mobi/CROCOValidationForms.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform     = :ios, '7.0'
