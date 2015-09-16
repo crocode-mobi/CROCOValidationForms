@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+
+target 'CROCOValidationForms_Example', :exclusive => true do
+  pod "CROCOValidationForms", :path => "../"
+end
+
+target 'CROCOValidationForms_Tests', :exclusive => true do
+  pod "CROCOValidationForms", :path => "../"
+
+  pod 'FBSnapshotTestCase'
+end

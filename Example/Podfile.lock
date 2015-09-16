@@ -1,0 +1,21 @@
+PODS:
+  - CROCOValidationForms (0.1.0)
+  - FBSnapshotTestCase (2.0.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.0.4)
+  - FBSnapshotTestCase/Core (2.0.4)
+  - FBSnapshotTestCase/SwiftSupport (2.0.4):
+    - FBSnapshotTestCase/Core
+
+DEPENDENCIES:
+  - CROCOValidationForms (from `../`)
+  - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  CROCOValidationForms:
+    :path: ../
+
+SPEC CHECKSUMS:
+  CROCOValidationForms: e515e18d7506f1a9b267ea534644a38d2d903882
+  FBSnapshotTestCase: d94cf34841c9e77390e29009e8e2713479d48753
+
+COCOAPODS: 0.35.0

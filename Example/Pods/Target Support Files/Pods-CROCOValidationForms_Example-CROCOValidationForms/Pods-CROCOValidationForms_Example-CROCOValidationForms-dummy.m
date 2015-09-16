@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_CROCOValidationForms_Example_CROCOValidationForms : NSObject
+@end
+@implementation PodsDummy_Pods_CROCOValidationForms_Example_CROCOValidationForms
+@end
