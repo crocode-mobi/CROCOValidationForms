@@ -34,7 +34,21 @@ Copy CROCOValidationForms.h and CROCOValidationForms.m to your project. That's i
 
 It's is very easy. Just use it like a new feature of a NSString. They return true or false.
 
-## Code
+## Methods
+
+```objective-c
+
+- (BOOL) validateEmail;
+
+- (BOOL) validationBlank;
++ (BOOL) validationBlankForStrings:(NSArray *)strings;
+
+- (BOOL) validatePassWithMinLength:(NSInteger)minLength;
+- (BOOL) validatePassWithMinLength:(NSInteger)minLength withAtLeastOneCharacter:(BOOL)character andAtLeastOneDigit:(BOOL)digit;
+
+```
+
+## Example Code
 
 ```objective-c
 - (IBAction)actionCheck:(id)sender {
