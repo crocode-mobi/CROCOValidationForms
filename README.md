@@ -6,9 +6,9 @@ Simple Objective C category to validate strings formats. You can use it to valid
 
 # Installation
 
-## Cocoapods
+## CocoaPods
 
-Install Cocoapods if need it
+Install CocoaPods if need it
 
 ```bash
 $ gem install cocoapods
